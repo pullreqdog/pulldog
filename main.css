@@ -1,0 +1,118 @@
+html,
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #f1f1f1;
+    --paper-accent: #d95656;
+}
+
+main {
+    width: 96%;
+    max-width: 840px;
+    margin: 1em auto 2em auto;
+    line-height: 1.5em;
+}
+
+.buttons a {
+    display: inline-block;
+    margin-right: 0.4em;
+    font-size: .8em;
+    padding: .2em .8em;
+}
+
+strong {
+    color: var(--paper-accent);
+}
+
+code {
+    background: rgba(0, 0, 0, .1);
+    padding: .2em .4em .1em .4em;
+    border-radius: 4px;
+}
+
+a {
+    color: var(--paper-accent);
+    transition: transform .2s, opacity .2s;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+github-author a:hover {
+    transform: scale(1.1);
+}
+
+p.notice {
+    background: rgba(0, 0, 0, .08);
+    padding: 0.6em .8em;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+span#dad_joke_container {
+    margin: 2em;
+}
+
+@-webkit-keyframes roll {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes roll {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+html.dark-mode {
+  filter: invert(100%);
+}
+
+html.dark-mode img {
+  filter: invert(100%);
+}
+
+#spidey_button {
+  background-color: red;
+  border: none;
+  border-bottom: solid 5px darkred;
+  color: white;
+  border-right: solid 5px darkred;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+
+#spidey_button:hover {
+  background-color: red;
+  border: none;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 5px;
+  margin-left: 5px;
+  outline: none;
+}
